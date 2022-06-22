@@ -6,3 +6,18 @@ body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
 #main {margin-left: 120px}
 /* Remove margins from "page content" on small screens */
 @media only screen and (max-width: 600px) {#main {margin-left: 0}}
+
+/*edit contact -group sections andisplay side-by-side*/
+#contact {
+  display: flex;
+  width: 50%;
+}
+
+#g1 {
+  flex: 1;
+  margin: 10px;
+}
+
+#g2{
+  margin-right: 20px;
+}
