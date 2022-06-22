@@ -13,12 +13,12 @@
   <!-- Icon Bar (Sidebar - hidden on small screens) -->
   <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
     <!-- Avatar image in top left corner -->
-    <img src="img/logo.jpg" style="width:100%">
+    <img src="prof.jpg" style="width:100%; height: 90px;">
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-pale-red">
       <i class="fa fa-home w3-xxlarge"></i>
       <p>HOME</p>
     </a>
-    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <a href="#skills" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
       <i class="fa fa-user w3-xxlarge"></i>
       <p>SKILLS</p>
     </a>
@@ -32,7 +32,7 @@
   <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
     <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
       <a href="#" class="w3-bar-item w3-button" style="width:25% !important">HOME</a>
-      <a href="#about" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
+      <a href="#skills" class="w3-bar-item w3-button" style="width:25% !important">ABOUT</a>
       <a href="#contact" class="w3-bar-item w3-button" style="width:25% !important">CONTACT</a>
     </div>
   </div>
@@ -40,30 +40,26 @@
   <!-- Page Content -->
   <div class="w3-padding-large" id="main">
     <!-- Header/Home -->
+    <div style="margin: 12%">
     <header class="w3-container w3-padding-32 w3-center w3-pale-red" id="home">
       <h1 class="w3-jumbo"><span class="w3-hide-small">Simply</span> AGaniyu.</h1>
       <p>Aspiring penetration tester.</p>
+
     </header>
 
-    <div class="w3-white w3-text-grey w3-card-4">
-      <div class="w3-display-container">
-          <img src="prof.jpg" style="width:40%" alt="me">
-          <div class="w3-display-bottomleft w3-container w3-text-black">
-            <h2>Aishat Ganiyu</h2>
-      </div>
-    </div>
-
     <!-- About Section -->
-    <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="about">
-      <!--<h2 class="w3-text-light-grey">Aishat Ganiyu</h2>-->
+    
+    <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+      <h2 class="w3-text-light-grey">Aishat Ganiyu</h2>
+	
       <hr style="width:200px" class="w3-opacity">
 	
-      <p> <em>Dear Reader, my name is Ganiyu Aishat.</em> 
+      <p> <em>Dear Reader, </em> </p><p>my name is Ganiyu Aishat.
 	I have experience in software development and is now running a masters program in cyber security. My involvement in mentoring and volunteer work are examples of how my hobbies entail helping others.</p>
       <p> The diagram below shows my level of proficiency in a variety of skills I've picked up throughout the years.</p>
 
       <br>
-      <h3 class="w3-padding-16 w3-text-light-grey">My Skills</h3>
+      <h3 class="w3-padding-16 w3-text-light-grey" id="skills">My Skills</h3>
       <p class="w3-wide">Proficient with MS Office</p>
       <div class="w3-white">
         <div class="w3-dark-grey" style="height:28px;width:95%"></div>
@@ -81,7 +77,7 @@
         <div class="w3-dark-grey" style="height:28px;width:80%"></div>
       </div><br>
 
-      <p>To find out more...<a href="https://aganiyu.github.io/CV%20FOR%20AISHAT%20GANIYU%20(Reading).docx" class="fa-fa-download">Download résumé</a>
+      <p>To find out more...<a href="https://aganiyu.github.io/cv.docx" class="fa-fa-download">Download résumé</a>
       </p>
 
 
@@ -89,16 +85,16 @@
       <div class="w3-padding-64 w3-content w3-text-grey" id="contact">
         <h2 class="w3-text-light-grey">Contact Me</h2>
         <hr style="width:200px" class="w3-opacity">
-	<div id='group'
+	<div id='group'>
         <div class="w3-section" id = "g1">
           <p><i class="fa fa-map-marker fa-fw w3-text-pale-red w3-xxlarge w3-margin-right"></i> United Kingdom</p>
           <p><i class="fa fa-phone fa-fw w3-text-pale-red w3-xxlarge w3-margin-right"></i>+44 7774 120349</p>
           <p><i class="fa fa-envelope fa-fw w3-text-pale-red w3-xxlarge w3-margin-right">
             </i>aishatganiyu2002@gmail.com
           </p>
-        </div><br>
+        </div>
 	<div id = "g2">
-        <p>Lets get in touch. Send me a message:</p>
+        <!--<p>Lets get in touch. Send me a message:</p>-->
 
         <img src="img/qr-code.png" alt="QR-Code" class="w3-image" width="150" height="150">
         <!-- End Contact Section -->
@@ -107,14 +103,15 @@
       </div>
 
       <!-- Footer -->
-      <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+      <footer id = 'footer' class="w3-content w3-text-grey w3-xlarge">
         <!-- <i class="fa fa-snapchat w3-hover-opacity"></i> -->
-        <a href="https://linkedin.com/in/aishat-ganiyu-4192a7168" class="fa fa-linkedin w3-hover-opacity"></a>
+        <a href="https://linkedin.com/in/aganiyu" class="fa fa-linkedin w3-hover-opacity"></a>
         <a href="https://github.com/AGaniyu" class="fa fa-github-square w3-hover-opacity"></a>
         <!-- End footer -->
       </footer>
 
       <!-- END PAGE CONTENT -->
+    </div>
     </div>
 
 </body>
